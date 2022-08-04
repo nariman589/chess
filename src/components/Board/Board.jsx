@@ -1,3 +1,4 @@
+import Pieces from "../pieces/Pieces";
 import "./index.css";
 
 export default function Board() {
@@ -19,6 +20,7 @@ export default function Board() {
       {board.map((ceil) => {
         return ceil;
       })}
+      <Pieces />
     </div>
   );
 }

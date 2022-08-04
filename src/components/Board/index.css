@@ -12,6 +12,7 @@
 }
 
 .board {
+  position: relative;
   margin: auto;
   display: flex;
   width: calc(64px * 8);

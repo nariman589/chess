@@ -1,0 +1,20 @@
+.ceil {
+  width: 64px;
+  height: 64px;
+}
+
+.black {
+  background-color: burlywood;
+}
+
+.white {
+  background-color: lightgray;
+}
+
+.board {
+  margin: auto;
+  display: flex;
+  width: calc(64px * 8);
+  height: calc(64px * 8);
+  flex-wrap: wrap;
+}
